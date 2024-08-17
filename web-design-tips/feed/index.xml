@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Web Design Tips Archives - High Risk Shop</title>
-	<atom:link href="/web-design-tips/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.highriskshop.com/web-design-tips/feed/" rel="self" type="application/rss+xml" />
 	<link>/web-design-tips/</link>
 	<description></description>
 	<lastBuildDate>Fri, 19 Jan 2024 18:38:12 +0000</lastBuildDate>
@@ -37,7 +37,7 @@
 		<guid isPermaLink="false">/?p=816</guid>
 
 					<description><![CDATA[<p>When you install a new WooCommerce website, blocks is enabled by default. This will cause most payment methods to stop working showing the message: &#8220;There are no payment methods available. This may be an error on our side. Please contact us if you need any help placing your order&#8220;. Fixing this issue is very easy: [&#8230;]</p>
-<p>The post <a href="/fix-woocommerce-there-are-no-payment-methods-available-error/">Fix WooCommerce There Are No Payment Methods Available Error</a> appeared first on <a href="/">High Risk Shop</a>.</p>
+<p>The post <a href="https://www.highriskshop.com/fix-woocommerce-there-are-no-payment-methods-available-error/">Fix WooCommerce There Are No Payment Methods Available Error</a> appeared first on <a href="https://www.highriskshop.com/">High Risk Shop</a>.</p>
 ]]></description>
 		
 		
@@ -53,7 +53,7 @@
 		<guid isPermaLink="false">/?p=758</guid>
 
 					<description><![CDATA[<p>The instant approval payment gateway using sardine.ai infrastructure may redirect your customers back to your website after payment using iframe. However, the default security settings including specifically the X-Frame-Options header, often restrict the ability to embed your site in iframes from different domains. In this comprehensive guide, we&#8217;ll explore two approaches to allow iframes on [&#8230;]</p>
-<p>The post <a href="/allow-your-website-to-be-displayed-iframe/">Allow Your Website To be Displayed or Embedded iframe</a> appeared first on <a href="/">High Risk Shop</a>.</p>
+<p>The post <a href="https://www.highriskshop.com/allow-your-website-to-be-displayed-iframe/">Allow Your Website To be Displayed or Embedded iframe</a> appeared first on <a href="https://www.highriskshop.com/">High Risk Shop</a>.</p>
 ]]></description>
 		
 		
@@ -69,7 +69,7 @@
 		<guid isPermaLink="false">/?p=565</guid>
 
 					<description><![CDATA[<p>To implement Facebook tracking across multiple domains, including a scenario where the ad redirects users to a landing page on one domain and the purchase is completed on another domain, you can use one of the following methods:Use the Facebook Conversion API to send server-side events to Facebook. The Conversion API allows you to send [&#8230;]</p>
-<p>The post <a href="/facebook-ads-tracking-multiple-domains/">Facebook Ads Tracking Multiple Domains</a> appeared first on <a href="/">High Risk Shop</a>.</p>
+<p>The post <a href="https://www.highriskshop.com/facebook-ads-tracking-multiple-domains/">Facebook Ads Tracking Multiple Domains</a> appeared first on <a href="https://www.highriskshop.com/">High Risk Shop</a>.</p>
 ]]></description>
 		
 		

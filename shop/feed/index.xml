@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Shop - High Risk Shop</title>
-	<atom:link href="/shop/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.highriskshop.com/shop/feed/" rel="self" type="application/rss+xml" />
 	<link>/shop/</link>
 	<description></description>
 	<lastBuildDate>Wed, 17 Jul 2024 09:07:23 +0000</lastBuildDate>
@@ -38,12 +38,12 @@
 					<description><![CDATA[<div style="text-align: center;"><iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/53n_lUm1vms?si=KtcNe5vyruKgA7yI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 <p>⚠️Disclaimer: This plugin is intended to provide custom REST API communication between two WooCommerce websites allowing the same websites owner to redirect their customers from one website to make the payment on another WooCommerce website seamlessly through a custom hosted checkout setup. HighRiskShop.COM and its owners shall not be liable for any abuse or illegal use of the offered software/plugin.</p>
 <ul>
-<li><a href="/docs/">📖 Plugin Documentation and Setup Guide</a></li>
+<li><a href="https://www.highriskshop.com/docs/">📖 Plugin Documentation and Setup Guide</a></li>
 <li><a href="#faq">❓FAQ</a></li>
 <li><a href="https://websitea.highriskshop.com/">🧑🏻‍💻Demo</a></li>
-<li><a href="/license/">📜 License</a></li>
+<li><a href="https://www.highriskshop.com/license/">📜 License</a></li>
 </ul>
-<p>The post <a href="/payment-gateway/woocommerce-payment-redirect-to-other-woocommerce-website-api/">WooCommerce Payment Redirect Plugin to Another WooCommerce Site with Custom API</a> appeared first on <a href="/">High Risk Shop</a>.</p>
+<p>The post <a href="https://www.highriskshop.com/payment-gateway/woocommerce-payment-redirect-to-other-woocommerce-website-api/">WooCommerce Payment Redirect Plugin to Another WooCommerce Site with Custom API</a> appeared first on <a href="https://www.highriskshop.com/">High Risk Shop</a>.</p>
 ]]></description>
 		
 		
