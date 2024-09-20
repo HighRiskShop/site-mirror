@@ -732,6 +732,8 @@ var _ckyStyles = {"css":".cky-overlay{background: #000000; opacity: 0.4; positio
             <option value="rampnetwork">ramp.network (USD)</option>
             <option value="moonpay">MoonPay</option>
 			<option value="alchemypay">Alchemy Pay</option>
+			<option value="robinhood">Robinhood (USD)</option>
+			<option value="coinbase">coinbase PAY</option>
 			<option value="utorg">UTORG</option>
 <option value="topper">Topper</option>
 			<option value="transfi">Transfi (USD)</option>
@@ -750,7 +752,9 @@ const minAmounts = {
   'wert': 1,
   'guardarian': 50,
   'particle': 5,
+  'robinhood': 5,
   'stripe': 2,
+  'coinbase': 2,
   'transak': 15,
   'paybis': 5,
   'sardine': 30,	
@@ -784,7 +788,7 @@ form.addEventListener('submit', async (event) => {
     return;
   }
 
-  if (currency !== 'USD' && (provider === 'wert' || provider === 'stripe' || provider === 'transfi' || provider === 'rampnetwork')) {
+  if (currency !== 'USD' && (provider === 'wert' || provider === 'stripe' || provider === 'transfi' || provider === 'robinhood' || provider === 'rampnetwork')) {
     paymentLinkDiv.innerHTML = `<p style="color: red;">${provider} supports USD currency only.<\/p>`;
     return;
   }
@@ -927,7 +931,11 @@ form.addEventListener('submit', async (event) => {
 <td>$1</td>
 </tr>
 <tr>
-<td>Stripe USA</td>
+<td>Stripe (USA)</td>
+<td>$2</td>
+</tr>
+<tr>
+<td>coinbase PAY</td>
 <td>$2</td>
 </tr>
 <tr>
@@ -944,6 +952,10 @@ form.addEventListener('submit', async (event) => {
 </tr>
 <tr>
 <td>Alchemy Pay</td>
+<td>$5</td>
+</tr>
+<tr>
+<td>Robinhood (USA)</td>
 <td>$5</td>
 </tr>
 <tr>
@@ -985,6 +997,10 @@ form.addEventListener('submit', async (event) => {
 <tr>
 <td>Transfi</td>
 <td>$70</td>
+</tr>
+<tr>
+<td>UPI/IMPS</td>
+<td>₹100</td>
 </tr>
 </tbody>
 </table>
