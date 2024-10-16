@@ -721,7 +721,6 @@ var _ckyStyles = {"css":".cky-overlay{background: #000000; opacity: 0.4; positio
         <select id="provider" name="provider" required="">
             <option value="wert">wert.io (USD)</option>
 			  <option value="stripe">Stripe (USA Only)</option>
-			<option value="paybis">Paybis.com</option>
 			  <option value="sardine">Sardine.ai</option>
             <option value="guardarian">Guardarian</option>
             <option value="particle">particle.network</option>
@@ -735,6 +734,9 @@ var _ckyStyles = {"css":".cky-overlay{background: #000000; opacity: 0.4; positio
 			<option value="robinhood">Robinhood (USD)</option>
 			<option value="coinbase">coinbase PAY</option>
 			<option value="utorg">UTORG</option>
+			<option value="unlimit">Unlimit</option>
+			<option value="bitnovo">Bitnovo</option>
+			<option value="simpleswap">SimpleSwap</option>
 <option value="topper">Topper</option>
 			<option value="transfi">Transfi (USD)</option>
 			<option value="upi">UPI/IMPS (INR)</option>
@@ -756,8 +758,8 @@ const minAmounts = {
   'stripe': 2,
   'coinbase': 2,
   'transak': 15,
-  'paybis': 5,
-  'sardine': 30,	
+  'sardine': 30,
+'simpleswap': 30,  
   'banxa': 50,
   'utorg': 50,
   'changenow': 50,
@@ -765,6 +767,8 @@ const minAmounts = {
   'alchemypay': 5,	
   'mercuryo': 30,
   'topper': 10,
+  'unlimit': 10,
+  'bitnovo': 10,
   'rampnetwork': 5,
   'upi': 100,
   'moonpay': 30
@@ -943,10 +947,6 @@ form.addEventListener('submit', async (event) => {
 <td>$5</td>
 </tr>
 <tr>
-<td>Paybis</td>
-<td>$5</td>
-</tr>
-<tr>
 <td>particle.network</td>
 <td>$5</td>
 </tr>
@@ -963,11 +963,23 @@ form.addEventListener('submit', async (event) => {
 <td>$10</td>
 </tr>
 <tr>
+<td>Unlimit</td>
+<td>$10</td>
+</tr>
+<tr>
+<td>Bitnovo</td>
+<td>$10</td>
+</tr>
+<tr>
 <td>Transak</td>
 <td>$15</td>
 </tr>
 <tr>
 <td>mercuryo.io</td>
+<td>$30</td>
+</tr>
+<tr>
+<td>SimpleSwap</td>
 <td>$30</td>
 </tr>
 <tr>
